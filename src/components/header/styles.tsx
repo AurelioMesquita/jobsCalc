@@ -20,6 +20,7 @@ export const HeaderBottom = styled.div`
   justify-content: space-between;
 `;
 export const HeaderCounter = styled.div`
+  background-color: inherit;
   width: 35%;
   display: flex;
   padding-bottom: 20px;

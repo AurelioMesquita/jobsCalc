@@ -5,8 +5,10 @@ export const GlobalComponent = styled.div`
 `;
 
 export const DataComponent = styled.div`
+  background-color: rgb(230, 230, 230);
   border-radius: 3%;
-  width: 80%;
+  padding: 10px 0;
+  width: 60%;
   display: flex;
   border: 1px solid black;
   margin: 5px auto;
@@ -31,13 +33,14 @@ export const Settings = styled.div`
 export const TitleProject = styled.h2`
   align-items: center;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 0 10px;
   font-size: 13px;
   text-transform: uppercase;
   color: #5a5a66;
   text-decoration: none;
   font-family: sans-serif;
 `;
+
 export const DeadLineData = styled.h2`
   align-items: center;
   text-align: center;
